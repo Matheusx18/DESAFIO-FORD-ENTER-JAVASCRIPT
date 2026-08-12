@@ -292,3 +292,59 @@ footer {
 .footer-logo img {
   display: block !important;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  
+  header, nav {
+    flex-direction: column !important;
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: column !important;
+    gap: 12px !important;
+    padding: 10px 0 !important;
+  }
+
+  main, .container, .cards-container, .conteudo {
+    flex-direction: column !important;
+    align-items: center !important;
+    padding: 15px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .card, .carro-card, .veiculo-item {
+    width: 100% !important;
+    max-width: 380px !important;
+    margin-bottom: 20px !important;
+  }
+
+  footer {
+    flex-direction: column !important;
+    height: auto !important;
+    min-height: auto !important;
+    max-height: none !important;
+    padding: 15px 10px !important;
+    gap: 12px !important;
+  }
+
+  #social ul {
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+    gap: 10px !important;
+  }
+
+  .redessociais {
+    font-size: 14px !important;
+  }
+
+  .footer-logo img {
+    width: 60px !important;
+  }
+}
